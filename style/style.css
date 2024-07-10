@@ -131,8 +131,6 @@ main{
     align-items: center;
 }
 .inspiration-content{
-    width: 800px;
-    height: 440px;
     border: 1px solid black;
     border-radius: 5px;
     padding: 16px;
@@ -141,19 +139,14 @@ main{
 }
 
 /* target section style */
-#target{
-    padding: 64px 48px;
-    background-image: url(/assets/handshake.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
-}
+
 .target-container{
     display: flex;
-    gap: 24px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    gap: 26px;
+    width: 1140px;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
 }
 .target-content{
     padding: 30px;
@@ -206,10 +199,11 @@ main{
     background-position: center;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
-    border-radius: 8px;
+    border-radius: 16px;
 }
 .contact-title{
     color: white;
+    font-size: 32px;
 }
 .contact-description{
     color: white;
@@ -244,4 +238,7 @@ footer{
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
+}
+.footer-copyright{
+    font-weight: bold;
 }
